@@ -64,9 +64,9 @@ a {
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <>
+    <GlobalStyle />
+    </>
   );
 }
 
