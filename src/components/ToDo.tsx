@@ -21,7 +21,6 @@ function ToDo({ text, category, id }: IToDo) {
   };
 
   const deleteToDo = () => {
-    // console.log(id);
     setToDos((oldToDos) => {
       const newToDos = oldToDos.filter(
         todo => todo.id !== id
